@@ -1,0 +1,163 @@
+      h1{
+        color: rgb(111, 7, 139);
+        cursor:pointer;
+       }
+      .h1-brand:hover{
+        color: rgb(204, 12, 225);
+        opacity: 0.5;
+
+       }
+      .h1-brand:active{
+        color: rgb(6, 241, 53);
+        opacity: 0.5;
+       }
+
+      nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(20, 11, 81);
+        border-radius: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 0;/*cut space below nav*/
+
+       }
+
+      nav ul{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        align-items: center;
+        font-size: 17px;
+       }
+
+      
+      nav a{
+        text-decoration: none;
+        color: silver;
+        }
+      nav a:hover{
+        color: rgb(186, 6, 222);
+        opacity: 0.5;
+      }
+      nav a:active{
+        color: rgb(6, 241, 53);
+        opacity: 0.5;
+      }
+      main{
+        background-color: rgb(158, 100, 246);
+        height: 200px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 0;/*cut space above main*/
+        
+      }
+      .start-button{
+        width: 100px;
+        height: 50px;
+        color: rgb(111, 7, 139);
+        background-color: rgb(158, 100, 246);
+        border:0.5px solid;
+        border-radius: 3px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .start-button:hover{
+        background-color: white;
+        color: rgb(4, 34, 134);
+        opacity: 0.5;
+        transition: 0.5s;
+      }
+      .start-button:active{
+        color: rgb(111, 7, 139);
+        opacity: 0.5;
+        transition: 0.5s;
+        
+      }
+      .h1{
+        margin-bottom: 9px;/*reduce bottom space*/
+        margin-top: 10px;
+        padding-top: 10px;
+        
+        
+      }
+      .stats{
+        font-size: 17px;
+        padding-bottom: 5px;
+      }
+      section{
+        background-color: rgba(245, 245, 245, 0.441);
+        height: 350px;
+        border-radius: 5px;
+        align-items: center;
+        border: 1px solid white;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      
+      }
+      .parent div{
+        background-color: rgb(225, 217, 237);
+        width: 300px;
+        height: 150px;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 40px;
+        color: rgb(177, 8, 228);
+        font-size: 25px;
+        font-weight: bold;
+        
+        
+      }
+      .div-h2{
+        Padding-bottom: 70px;
+      }
+   
+      .section-button{
+        width: 100px;
+        height: 50px;
+        background-color: rgb(177, 8, 228);
+        border: 0.5px solid white;
+        border-radius: 3px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        margin-bottom:0
+    
+        
+      }
+      .section-button:hover{
+        background-color: white;
+        color: darkblue;
+        opacity: 0.5;
+        transition: 0.5s;
+
+      }
+      .section-button:active{
+        color: rgb(3, 3, 65);
+        opacity: 0.5;
+        transition: 0.5s;
+      }
+      .form{
+        background-color: rgb(158, 100, 246);
+        height: 300px;
+        font-size: 20px;
+        color: white;
+        border:0.5px solid white;
+        border-radius: 5px;
+        padding-top: 20px;
+        margin-left: 10px;
+        display: block;
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        position: relative;
+        top: 8px;
+      }
+      .header{
+        padding-bottom:80px
+        
+        
+      }
